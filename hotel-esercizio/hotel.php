@@ -54,6 +54,26 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
+    <section>
+        <form method="GET" action="">
+            <select class="form-select form-select-sm" aria-label=".form-select-lg example">
+              <option selected>Disponibilità parcheggio</option>
+              <option value="1">True</option>
+              <option value="2">False</option>
+              
+            </select>
+
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option selected>Voto minimo</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+        </form>
+    </section>
+    <section>
     <table class="table">
   <thead>
     <tr>
@@ -75,6 +95,7 @@
 
      <?php } ?>
   </tbody>
+  </section>
 </table>
 </body>
 </html>
