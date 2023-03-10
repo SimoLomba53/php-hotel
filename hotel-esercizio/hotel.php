@@ -67,13 +67,9 @@
   <tbody>
      <?php foreach($hotels as $key => $all_hotel)  { ?>
         <tr>
-        <th scope="row"><?php $key ?></th>
         <?php foreach($all_hotel as $hotel)  {   ?>
-           <td><?php $hotel  ?></td>
-           <td><?php $hotel  ?></td>
-           <td><?php $hotel  ?></td>
-           <td><?php $hotel  ?></td>
-           <td><?php $hotel  ?></td>
+           <td><?php echo $hotel ?></td>
+           
         <?php } ?>
         </tr>    
 
